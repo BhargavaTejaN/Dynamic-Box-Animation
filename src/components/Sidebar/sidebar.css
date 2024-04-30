@@ -1,0 +1,105 @@
+/* sidebar.css */
+
+.sidebar-div-container {
+  width: 100%;
+  padding: 20px;
+  height: 100vh;
+  box-sizing: border-box;
+  /* background-color: #f0f0f0; */
+  /* border-radius: 10px; */
+  /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
+}
+
+.sidebar-heading {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.input-container {
+  margin-bottom: 20px;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  padding: 5px;
+  align-items: flex-start;
+}
+
+/* .label {
+  display: block;
+  font-size: 16px;
+  color: #555;
+} */
+
+/* .input {
+  width: calc(100% - 10px);
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  font-size: 14px;
+  color: #333;
+} */
+
+.select {
+  width: calc(100% - 10px);
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  font-size: 14px;
+  color: #333;
+  appearance: none;
+  -webkit-appearance: none;
+  background: url('data:image/svg+xml;utf8,<svg fill="%23333" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M7 10l5 5 5-5H7z"/><path fill="none" d="M0 0h24v24H0z"/></svg>') no-repeat right 8px center;
+  background-size: 16px 16px;
+  background-position-x: calc(100% - 10px);
+}
+
+.button-group {
+  display: flex;
+}
+
+.button {
+  padding: 10px 20px;
+  margin-right: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #007bff;
+  color: #fff;
+  font-size: 14px;
+  transition: background-color 0.3s;
+}
+
+.button:hover {
+  background-color: #0056b3;
+}
+
+.animate-button {
+  background-color: #28a745;
+}
+
+.stop-button {
+  background-color: #dc3545;
+}
+
+.button:disabled {
+  opacity: 0.5; 
+  cursor: not-allowed;
+}
+
+
+.animate-button:disabled,
+.stop-button:disabled {
+  background-color: #ccc; 
+  color: #666;
+}
+
+.hr {
+  border: none;
+  border-top: 3px solid black;
+  margin: 20px;
+  width: 100%;
+}

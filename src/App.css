@@ -1,0 +1,45 @@
+.app-container {
+  display: flex;
+  height: 100vh;
+  max-width: 100vw;
+}
+
+.main-container {
+  width: 60%;
+  height: 100vh;
+}
+
+.vertical-line {
+  width: 2px;
+  background-color: black;
+}
+
+.sidebar-container {
+  width: 40%;
+  overflow: scroll; 
+}
+
+
+
+/* .app-container {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+}
+
+.main-container {
+  width: 60%;
+  position: relative;
+  overflow: auto;
+}
+
+.vertical-line {
+  width: 1px;
+  background-color: black;
+  height: 100%;
+}
+
+.sidebar-container {
+  width: 40%;
+  overflow-y: auto;
+} */

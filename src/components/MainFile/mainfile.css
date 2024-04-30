@@ -1,0 +1,12 @@
+/* .main-container {
+  width: 60%;
+  height: 100vh;
+}
+
+.box {
+  position: absolute;
+  width: var(--box-width);
+  height: var(--box-height);
+  background-color: var(--box-color);
+  animation: moveBox var(--box-interval) steps(var(--box-steps)) forwards;
+} */
