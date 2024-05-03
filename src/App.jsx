@@ -102,6 +102,7 @@ const App = () => {
           onStopAnimation={handleStopAnimation}
         />
       </div>
+      <h1>Hello</h1>
     </div>
   );
 };
